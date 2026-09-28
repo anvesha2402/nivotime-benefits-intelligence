@@ -1,0 +1,140 @@
+{
+ "prem_per_life": 2233.187931661214,
+ "broker_rev_per_life": 167.48909487459105,
+ "fee_share": 0,
+ "res": {
+  "Downside": [
+   {
+    "year": 1,
+    "brokers": 1,
+    "direct": 3,
+    "lives": 7350,
+    "recurring": 306000.0,
+    "implementation": 525000.0,
+    "advisory": 150000.0,
+    "revenue": 981000.0,
+    "cost": 6200000.0,
+    "ebitda": -5219000.0
+   },
+   {
+    "year": 2,
+    "brokers": 3,
+    "direct": 8,
+    "lives": 28350,
+    "recurring": 1266000.0,
+    "implementation": 975000.0,
+    "advisory": 375000.0,
+    "revenue": 2616000.0,
+    "cost": 7700000.0,
+    "ebitda": -5084000.0
+   },
+   {
+    "year": 3,
+    "brokers": 6,
+    "direct": 14,
+    "lives": 67550,
+    "recurring": 2658000.0,
+    "implementation": 1350000.0,
+    "advisory": 750000.0,
+    "revenue": 4758000.0,
+    "cost": 9900000.0,
+    "ebitda": -5142000.0
+   }
+  ],
+  "Base": [
+   {
+    "year": 1,
+    "brokers": 3,
+    "direct": 4,
+    "lives": 18550,
+    "recurring": 708000.0,
+    "implementation": 1200000.0,
+    "advisory": 375000.0,
+    "revenue": 2283000.0,
+    "cost": 6200000.0,
+    "ebitda": -3917000.0
+   },
+   {
+    "year": 2,
+    "brokers": 8,
+    "direct": 10,
+    "lives": 70000,
+    "recurring": 2940000.0,
+    "implementation": 1950000.0,
+    "advisory": 975000.0,
+    "revenue": 5865000.0,
+    "cost": 7700000.0,
+    "ebitda": -1835000.0
+   },
+   {
+    "year": 3,
+    "brokers": 15,
+    "direct": 18,
+    "lives": 163100,
+    "recurring": 6036000.0,
+    "implementation": 2700000.0,
+    "advisory": 1800000.0,
+    "revenue": 10536000.0,
+    "cost": 9900000.0,
+    "ebitda": 636000.0
+   }
+  ],
+  "Upside": [
+   {
+    "year": 1,
+    "brokers": 4,
+    "direct": 5,
+    "lives": 24500,
+    "recurring": 930000.0,
+    "implementation": 1575000.0,
+    "advisory": 525000.0,
+    "revenue": 3030000.0,
+    "cost": 6200000.0,
+    "ebitda": -3170000.0
+   },
+   {
+    "year": 2,
+    "brokers": 12,
+    "direct": 14,
+    "lives": 100800,
+    "recurring": 4308000.0,
+    "implementation": 3075000.0,
+    "advisory": 1575000.0,
+    "revenue": 8958000.0,
+    "cost": 7700000.0,
+    "ebitda": 1258000.0
+   },
+   {
+    "year": 3,
+    "brokers": 24,
+    "direct": 26,
+    "lives": 249200,
+    "recurring": 9372000.0,
+    "implementation": 4500000.0,
+    "advisory": 3000000.0,
+    "revenue": 16872000.0,
+    "cost": 9900000.0,
+    "ebitda": 6972000.0
+   }
+  ]
+ },
+ "cac_broker": 192000.0,
+ "arr_broker": 480000.0,
+ "ltv": 1680000.0,
+ "ltv_cac": 8.75,
+ "payback_months": 6.857142857142857,
+ "roi": {
+  "fee": 660000.0,
+  "time_value": 420000.0,
+  "hours": 600.0,
+  "retained": 234484.73282442745,
+  "won": 351727.09923664114,
+  "total": 1006211.8320610686
+ },
+ "employer": {
+  "premium": 1563231.5521628498,
+  "fee": 42000,
+  "breakeven_pct": 0.02686742085130626
+ },
+ "pool_all": 0
+}

@@ -1,0 +1,72 @@
+{
+ "n_groups": 600,
+ "mean_premium": 2234,
+ "mean_icr": 81.6,
+ "forecast": {
+  "mae_pp": 1.87,
+  "naive_mae_pp": 5.52,
+  "within_5pp": 96.0,
+  "test_n": 150,
+  "improvement": 66
+ },
+ "drivers": {
+  "Claims ratio (ICR)": 89.3,
+  "Average age": 5.1,
+  "Group size": 2.6,
+  "Family definition": 1.4,
+  "Room-rent cap": 1.2,
+  "City tier": 0.2,
+  "Sum insured": 0.1,
+  "Parents' co-pay": 0.1,
+  "Industry": 0.0
+ },
+ "peer": {
+  "client": {
+   "industry": "IT services",
+   "employees": 439,
+   "avg_age": 28.4,
+   "family": "E+S+2C+P",
+   "sum_insured": 500000,
+   "copay_parents": 0,
+   "room_rent": "No cap",
+   "city": "Tier 2",
+   "premium_per_life": 2500.0,
+   "claims_ratio": 0.96,
+   "engagement": 0.357,
+   "renewal_loading": 0.1888
+  },
+  "n_peers": 42,
+  "prem_pct": 79,
+  "icr_client": 96,
+  "icr_peer_median": 78,
+  "eng_client": 36,
+  "eng_peer_median": 45,
+  "pred_renewal": 18.9
+ },
+ "simulator": {
+  "10% co-pay on parents": -4.2,
+  "20% co-pay on parents": -8.2,
+  "Room-rent cap 1% (from no cap)": -11.6,
+  "Sum insured \u20b95L \u2192 \u20b910L": 24.2,
+  "Drop parents' cover": -30.3
+ },
+ "sim_r2": 0.954,
+ "anomaly": {
+  "claims": 5000,
+  "injected": 100,
+  "flagged": 100,
+  "precision": 29,
+  "recall": 29,
+  "hyb_flagged": 75,
+  "hyb_precision": 56,
+  "hyb_recall": 42
+ },
+ "industry_counts": {
+  "IT services": 168,
+  "Manufacturing": 132,
+  "BFSI": 100,
+  "Retail": 74,
+  "Pharma": 71,
+  "Prof. services": 55
+ }
+}

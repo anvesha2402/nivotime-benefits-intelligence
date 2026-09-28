@@ -1,0 +1,11 @@
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+matplotlib>=3.8
+python-docx>=1.1
+lxml>=5.0
+
+# System tools used by the docx build pipeline (not installable via pip):
+#   pandoc        https://pandoc.org/installing.html
+#   LibreOffice   used headless for docx -> pdf rendering (soffice --headless)
+#   poppler-utils provides pdftoppm / pdftotext for page-render QA and TOC page-number resolution
