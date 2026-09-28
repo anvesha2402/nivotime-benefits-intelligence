@@ -9,3 +9,5 @@ lxml>=5.0
 #   pandoc        https://pandoc.org/installing.html
 #   LibreOffice   used headless for docx -> pdf rendering (soffice --headless)
 #   poppler-utils provides pdftoppm / pdftotext for page-render QA and TOC page-number resolution
+streamlit>=1.64
+plotly>=7.1
